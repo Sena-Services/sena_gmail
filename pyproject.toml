@@ -1,0 +1,10 @@
+[project]
+name = "sena_gmail"
+version = "0.0.1"
+description = "Gmail integration for Sena Agents"
+requires-python = ">=3.10"
+dependencies = ["frappe", "sena_agents_backend"]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
